@@ -49,8 +49,8 @@ body {
 .app {
     background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
-    left:50%;
-    top:50%;
+    left:25%;
+    top:25%;
     height:50px;                   /* text area height */
     width:225px;                   /* text area width */
     text-align:center;
@@ -70,7 +70,7 @@ body {
 }
 
 h1 {
-    font-size:70px;
+    font-size:200px;
     font-weight:normal;
     margin:0px;
     overflow:visible;
@@ -99,6 +99,7 @@ h2 {
 .event.listening {
     background-color:#333333;
     display:block;
+
 }
 
 .event.received {
