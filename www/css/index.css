@@ -85,8 +85,8 @@ h2 {
 }
 
 .event {
-    border-radius:4px;
-    -webkit-border-radius:4px;
+    border-radius:40px;
+    -webkit-border-radius:40px;
     color:#FFFFFF;
     font-size:60px;
     margin:0px 30px;
@@ -103,10 +103,6 @@ h2 {
     display:none;
 }
 
-.info{
-	
-	
-}
 @keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
