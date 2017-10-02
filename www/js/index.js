@@ -34,6 +34,10 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		//The following code found from https://www.youtube.com/watch?v=sSr1s19gND8
+		$("#info").html('Cordova Version: ' +device.cordova+'<br>');
+		&("#info").append(device.model+'<br>');
+		&("#info").append(device.platform+' '+device.version +'<br>');
 		
     },
     // Update DOM on a Received Event
