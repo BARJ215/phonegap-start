@@ -37,7 +37,7 @@ body {
     );
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:50px;
+    font-size:200px;
     height:100%;
     margin:0px;
     padding:0px;
@@ -50,8 +50,6 @@ body {
     position:absolute;             /* position in the center of the screen */
     left:50px;
     top:50px;
-    left:50%;
-    top:50%;
     height:50px;                   /* text area height */
     width:225px;                   /* text area width */
     text-align:left;
@@ -62,14 +60,12 @@ body {
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position:left center;
-        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
-                                      /* offset horizontal: half of image width and text area width */
+        
     }
 }
 
 h1 {
-    font-size:70px;
+    font-size:250px;
     font-weight:normal;
     margin:0px;
     overflow:visible;
@@ -78,7 +74,7 @@ h1 {
 }
 
 h2 {
-    font-size:60px;
+    font-size:225px;
     font-weight:normal;
     margin:0px;
     overflow:visible;
