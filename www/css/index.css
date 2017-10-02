@@ -53,6 +53,8 @@ body {
     height:50px;                   /* text area height */
     width:225px;                   /* text area width */
     text-align:left;
+	padding:0px;
+	margin:0px;
 
 }
 
@@ -60,7 +62,8 @@ body {
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position:left center;
-        
+        padding:0px;
+		margin:0px;
     }
 }
 
