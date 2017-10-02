@@ -47,15 +47,11 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    
     position:absolute;             /* position in the center of the screen */
-<<<<<<< HEAD
     left:50px;
     top:50px;
-=======
     left:50%;
     top:50%;
->>>>>>> parent of 9bf7265... Size Changed
     height:50px;                   /* text area height */
     width:225px;                   /* text area width */
     text-align:left;
