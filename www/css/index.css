@@ -90,7 +90,7 @@ h2 {
     color:#FFFFFF;
     font-size:60px;
     margin:0px 30px;
-    padding:2px 0px;
+    padding:50px 50px;
 }
 
 .event.listening {
@@ -102,6 +102,17 @@ h2 {
     background-color:#4B946A;
     display:none;
 }
+
+#info{
+	font-size:160px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:left;
+	
+}
+
 
 @keyframes fade {
     from { opacity: 1.0; }
