@@ -46,9 +46,8 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 		
 		//The following code found from https://www.youtube.com/watch?v=sSr1s19gND8
-		$("#info").html('Cordova Version: ' +device.cordova+'<br>');
-		$("#info").append(device.model+'<br>');
-		$("#info").append(device.platform+' '+device.version +'<br>');
+		var deviceP = document.getElementById("info");
+		deviceP.innerHTML('Cordova Version: ' +device.cordova+'<br>'+device.model+'<br>'+device.platform+' '+device.version +'<br>');
 
         console.log('Received Event: ' + id);
     }
