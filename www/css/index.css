@@ -88,7 +88,7 @@ h2 {
     border-radius:4px;
     -webkit-border-radius:4px;
     color:#FFFFFF;
-    font-size:12px;
+    font-size:60px;
     margin:0px 30px;
     padding:2px 0px;
 }
@@ -103,7 +103,10 @@ h2 {
     display:none;
 }
 
-
+.info{
+	
+	
+}
 @keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
